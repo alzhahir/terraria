@@ -7,7 +7,7 @@ To use the image on your system, you can pull the image:\
 `docker pull ghcr.io/alzhahir/terraria:main`
 
 ### Usage in Pterodactyl
-If you want to use the image in Pterodactyl, just add the URL on your egg config:\
+If you want to use the image in Pterodactyl, just add the URL to your egg config:\
 `ghcr.io/alzhahir/terraria:main`
 
 #### Alternatively, an egg is also available in this repository.
