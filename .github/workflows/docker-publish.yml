@@ -67,6 +67,7 @@ jobs:
         with:
           context: ./image/
           file: ./image/Dockerfile
+          platforms: all
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
