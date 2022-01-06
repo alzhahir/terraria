@@ -5,7 +5,7 @@ LABEL maintainer="alzhahir"
 ENV DEBIAN_FRONTEND noninteractive
 
 ## add container user
-RUN   useradd -m -d /home/container -s /bin/bash container
+RUN   useradd -m -d /home/container container
 
 RUN apt update && apt upgrade -y
 
