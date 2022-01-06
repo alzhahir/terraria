@@ -2,7 +2,7 @@ FROM ubuntu
 
 LABEL maintainer="alzhahir"
 
-ENV noninteractive
+ENV DEBIAN_FRONTEND noninteractive
 
 ## add container user
 RUN   useradd -m -d /home/container -s /bin/bash container
