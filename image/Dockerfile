@@ -19,7 +19,7 @@ RUN update-locale lang=en_US.UTF-8 \
  && dpkg-reconfigure --frontend noninteractive locales
  
 ## Test stuff
-RUN ln -sf /.local/share/Terraria /home/container
+# RUN ln -sf /.local/share/Terraria /home/container
 
 WORKDIR /home/container
 COPY ./entrypoint.sh /entrypoint.sh
