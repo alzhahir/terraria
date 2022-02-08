@@ -1,4 +1,5 @@
 # Terraria Server Images & Eggs
+### NOTE: THIS IMAGE IS STILL UNFINISHED AND CURRENTLY UNUSABLE
 Terraria Server images and eggs for arm64 and amd64 systems running Pterodactyl.
 
 ## How to use this?
