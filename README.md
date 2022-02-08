@@ -1,6 +1,5 @@
 # Terraria Server Images & Eggs
-### NOTE: THIS IMAGE IS STILL UNFINISHED AND CURRENTLY UNUSABLE
-Terraria Server images and eggs for arm64 and amd64 systems running Pterodactyl.
+Terraria Server images and eggs for ARM (and x64) systems running Pterodactyl.
 
 ## How to use this?
 ### Usage outside of Pterodactyl
@@ -11,7 +10,7 @@ To use the image on your system, you can pull the image:\
 If you want to use the image in Pterodactyl, just add the URL to your egg config:\
 `ghcr.io/alzhahir/terraria:main`
 
-#### Alternatively, an egg is also available in this repository.
+#### In addition, an egg is also available in this repository.
 
 ## Note
-The images provided are only compatible with amd64 and arm64 systems.
+The images provided should be compatible with `amd64` and `arm64` systems. However, `amd64` compatibility is untested. If you find any encounter using this image on amd64 systems, feel free to [contact me](https://www.alzhahir.com/contact) directly or [open an issue](https://github.com/alzhahir/terraria/issues) in this repository.
