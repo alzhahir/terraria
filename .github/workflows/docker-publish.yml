@@ -7,8 +7,8 @@ name: Build and release image
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 1'
+#  schedule:
+#    - cron: '0 0 * * 1'
   push:
     branches: [ main ]
     paths:
