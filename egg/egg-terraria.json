@@ -5,12 +5,12 @@
         "update_url": null
     },
     "exported_at": "2022-01-05T09:48:58+08:00",
-    "name": "Terraria ARM64",
+    "name": "Terraria (Universal)",
     "author": "megat@alzhahir.com",
     "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game.",
     "features": null,
     "images": [
-        "quay.io\/parkervcp\/pterodactyl-images:base_debian"
+        "ghcr.io\/alzhahir\/terraria:main"
     ],
     "file_denylist": [],
     "startup": "mono .\/TerrariaServer.bin.x86_64 -config serverconfig.txt",
