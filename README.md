@@ -4,11 +4,11 @@ Terraria Server images and eggs for ARM (and x64) systems running Pterodactyl.
 ## How to use this?
 ### Usage outside of Pterodactyl
 To use the image on your system, you can pull the image:\
-`docker pull ghcr.io/alzhahir/terraria:main`
+`docker pull ghcr.io/alzhahir/pterorraria:main`
 
 ### Usage in Pterodactyl
 If you want to use the image in Pterodactyl, just add the URL to your egg config:\
-`ghcr.io/alzhahir/terraria:main`
+`ghcr.io/alzhahir/pterorraria:main`
 
 #### In addition, an egg is also provided in this repository. You may navigate to the [egg folder](egg) to download it, or [save this link](egg/egg-terraria.json?raw=1) as a JSON file.
 
