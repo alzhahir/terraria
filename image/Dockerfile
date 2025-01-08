@@ -10,6 +10,8 @@ ENV USER=container HOME=/home/container
 
 RUN apt update && apt upgrade -y
 
+RUN apt install software-properties-common -y
+
 RUN add-apt-repository ppa:dotnet/backports
 
 RUN apt update
